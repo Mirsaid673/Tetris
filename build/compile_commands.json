@@ -1,0 +1,197 @@
+[
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/Camera/camera.cpp.o -c /home/neron/Projects/tetris/Engine/Core/Camera/camera.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/Camera/camera.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/Camera/camera2d.cpp.o -c /home/neron/Projects/tetris/Engine/Core/Camera/camera2d.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/Camera/camera2d.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/Resources/image.cpp.o -c /home/neron/Projects/tetris/Engine/Core/Resources/image.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/Resources/image.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/Resources/resource_manager.cpp.o -c /home/neron/Projects/tetris/Engine/Core/Resources/resource_manager.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/Resources/resource_manager.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/UI/canvas.cpp.o -c /home/neron/Projects/tetris/Engine/Core/UI/canvas.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/UI/canvas.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/application.cpp.o -c /home/neron/Projects/tetris/Engine/Core/application.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/application.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/global.cpp.o -c /home/neron/Projects/tetris/Engine/Core/global.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/global.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/input.cpp.o -c /home/neron/Projects/tetris/Engine/Core/input.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/input.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/node.cpp.o -c /home/neron/Projects/tetris/Engine/Core/node.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/node.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/scene.cpp.o -c /home/neron/Projects/tetris/Engine/Core/scene.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/scene.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Core/time_utils.cpp.o -c /home/neron/Projects/tetris/Engine/Core/time_utils.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Core/time_utils.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Math/basis.cpp.o -c /home/neron/Projects/tetris/Engine/Math/basis.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Math/basis.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Math/basis2d.cpp.o -c /home/neron/Projects/tetris/Engine/Math/basis2d.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Math/basis2d.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Math/transform.cpp.o -c /home/neron/Projects/tetris/Engine/Math/transform.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Math/transform.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Math/transform2d.cpp.o -c /home/neron/Projects/tetris/Engine/Math/transform2d.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Math/transform2d.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Platform/window.cpp.o -c /home/neron/Projects/tetris/Engine/Platform/window.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Platform/window.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/glTF/gltf.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/glTF/gltf.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/glTF/gltf.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_demo.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_demo.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_draw.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_draw.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_glfw.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_opengl3.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_tables.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_tables.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_widgets.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/simdjson/simdjson.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/simdjson/simdjson.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/simdjson/simdjson.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/Vendor/stb/stb_image.cpp.o -c /home/neron/Projects/tetris/Engine/Vendor/stb/stb_image.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/Vendor/stb/stb_image.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Buffers/index_buffer.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Buffers/index_buffer.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Buffers/index_buffer.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_array.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_array.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_array.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_attribs.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_attribs.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_attribs.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_buffer.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_buffer.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Buffers/vertex_buffer.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Framebuffer/framebuffer.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Framebuffer/framebuffer.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Framebuffer/framebuffer.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Program/program.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Program/program.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Program/program.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Program/shader.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Program/shader.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Program/shader.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Renderer/renderer.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Renderer/renderer.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Renderer/renderer.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Renderer/text_renderer.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Renderer/text_renderer.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Renderer/text_renderer.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Texture/cubemap.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Texture/cubemap.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Texture/cubemap.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/Texture/texture.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/Texture/texture.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/Texture/texture.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/Engine/openGL/gpu.cpp.o -c /home/neron/Projects/tetris/Engine/openGL/gpu.cpp",
+  "file": "/home/neron/Projects/tetris/Engine/openGL/gpu.cpp"
+},
+{
+  "directory": "/home/neron/Projects/tetris/build",
+  "command": "/usr/bin/g++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL -g -std=gnu++17 -o CMakeFiles/out.dir/main.cpp.o -c /home/neron/Projects/tetris/main.cpp",
+  "file": "/home/neron/Projects/tetris/main.cpp"
+}
+]

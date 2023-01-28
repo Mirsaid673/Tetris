@@ -1,0 +1,3 @@
+/home/neron/Projects/tetris/build/CMakeFiles/out.dir
+/home/neron/Projects/tetris/build/CMakeFiles/edit_cache.dir
+/home/neron/Projects/tetris/build/CMakeFiles/rebuild_cache.dir
