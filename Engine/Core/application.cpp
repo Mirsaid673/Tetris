@@ -27,6 +27,7 @@ void Application::app_init()
 
     camera.perspective(glm::radians(90.0f), (float)window.getWidth() / float(window.getHeight()), 0, 100);
     camera2d.ortho(-1, 1, 1, -1);
+    Image::setFlipOnLoad(true);
 }
 
 void Application::app_determinate()
@@ -80,6 +81,6 @@ void Application::set_scene(Scene &scene)
 {
     current_scene->destroy();
     current_scene = &scene;
-    
+
     scene.update();
 }
