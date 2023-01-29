@@ -9,7 +9,7 @@ void Application::app_init()
 {
     Window::init();
 
-    window.create(300, 600, "tetris");
+    window.create(420, 600, "tetris");
     window.makeCurrent();
     input.init(window);
     Time::init();

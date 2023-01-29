@@ -15,11 +15,11 @@ std::vector<VertexAttribs> VertexAttribs::POS_NORM_TEX =
 {
     VertexAttribs::POSITION,
     VertexAttribs::NORMAL,
-    VertexAttribs::TEXTURE_ST,
+    VertexAttribs::TEXTURE_ST0,
 };
 
 std::vector<VertexAttribs> VertexAttribs::POS2D_TEX =
 {
     VertexAttribs::POSITION2D,
-    VertexAttribs::TEXTURE_ST,
+    VertexAttribs::TEXTURE_ST0,
 };

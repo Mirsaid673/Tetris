@@ -12,7 +12,7 @@ class Game : public Application
     void init() override
     {
         camera2d.ortho(0, scale, scale * (float)window.getHeight() / (float)window.getWidth(), 0);
-        Renderer::setClearColor(glm::vec3(0.5));
+        Renderer::setClearColor(glm::vec3(0.25, 0.2f, 0.3f));
         Tile::init();
 
         scene.addNode(logic);
@@ -23,7 +23,7 @@ class Game : public Application
     {
     }
 
-    float scale = 10.0f;
+    float scale = 14.0f;
     void onResize() override
     {
         camera2d.ortho(0, scale, scale * (float)window.getHeight() / (float)window.getWidth(), 0);

@@ -6,6 +6,7 @@
 #include "Core/rid.h"
 #include "Mesh/mesh.h"
 #include "Mesh/mesh2d.h"
+#include "Mesh/uni_mesh.h"
 #include <vector>
 
 class GPU
@@ -42,6 +43,7 @@ public:
     //* meshes
     RID loadMesh(const Mesh &mesh);
     RID loadMesh(const Mesh2d &mesh);
+    RID loadMesh(const UniMesh &mesh);
 
     RID getDeafultCube() const { return default_cube; }
     RID getDeafultQuad() const { return default_quad; }

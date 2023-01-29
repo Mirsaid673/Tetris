@@ -61,7 +61,7 @@ public:
         glm::mat2 r(0, 1, -1, 0);
         for (int i = 0; i < 4; i++)
         {
-            points[i] = (points[i] - glm::ivec2(2, 1)) * r;
+            points[i] = (points[i] - glm::ivec2(1, 0)) * r;
         }
     }
     Tile::Color getColor() const { return color; }
@@ -86,10 +86,10 @@ public:
 
 int Tetromino::figures[7][4]{
     0, 2, 4, 6, // I
-    2, 4, 5, 7, // Z
-    3, 5, 4, 6, // S
-    3, 5, 4, 7, // T
-    2, 3, 5, 7, // L
-    3, 5, 7, 6, // J
-    2, 3, 4, 5, // O
+    0, 2, 3, 5, // Z
+    1, 3, 2, 4, // S
+    1, 3, 2, 5, // T
+    0, 1, 3, 5, // L
+    1, 3, 5, 4, // J
+    0, 1, 2, 3, // O
 };

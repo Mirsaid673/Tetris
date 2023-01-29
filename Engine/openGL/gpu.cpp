@@ -81,6 +81,58 @@ RID GPU::loadMesh(const Mesh &mesh)
 
     return vao;
 }
+RID GPU::loadMesh(const UniMesh &mesh)
+{
+    RID vao = createVertexArray();
+    setMode(vao, mesh.mode);
+
+    RID ibo = createIndexBuffer(mesh.indices.data(), mesh.indices.size() * sizeof(uint32_t));
+    linkIndexBuffer(vao, ibo);
+
+    if (mesh.positions.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.positions.data(), mesh.positions.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::POSITION}, false);
+    }
+
+    if (mesh.normals.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.normals.data(), mesh.normals.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::NORMAL}, false);
+    }
+
+    if (mesh.color.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.color.data(), mesh.color.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::COLOR}, false);
+    }
+
+    if (mesh.texture_st0.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.texture_st0.data(), mesh.texture_st0.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::TEXTURE_ST0}, false);
+    }
+
+    if (mesh.texture_st1.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.texture_st1.data(), mesh.texture_st1.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::TEXTURE_ST1}, false);
+    }
+
+    if (mesh.positions2d.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.positions2d.data(), mesh.positions2d.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::POSITION2D}, false);
+    }
+
+    if (mesh.color4.size() != 0)
+    {
+        RID vbo = createVertexBuffer(mesh.color4.data(), mesh.color4.size() * sizeof(Vertex));
+        linkAttribs(vao, vbo, {VertexAttribs::COLOR4}, false);
+    }
+
+    return vao;
+}
 
 RID GPU::loadMesh(const Mesh2d &mesh)
 {
