@@ -29,24 +29,31 @@ public:
             tick();
         }
 
+        int dx = 0;
         if (input.getKeyPress(GLFW_KEY_A))
-        {
-            buffer = tetromino;
-            tetromino.translate({-1, 0});
-            if (!check())
-                tetromino = buffer;
-        }
+            dx = -1;
         else if (input.getKeyPress(GLFW_KEY_D))
-        {
-            buffer = tetromino;
-            tetromino.translate({1, 0});
-            if (!check())
-                tetromino = buffer;
-        }
+            dx = 1;
         else if (input.getKeyPress(GLFW_KEY_W))
         {
             buffer = tetromino;
             tetromino.rotate();
+            if (!check())
+            {
+                tetromino.translate({1, 0}); // check if we can rotate it but to right
+                if (!check())
+                {
+                    tetromino.translate({-2, 0});
+                    if (!check())
+                        tetromino = buffer;
+                }
+            }
+        }
+
+        if (dx)
+        {
+            buffer = tetromino;
+            tetromino.translate({dx, 0});
             if (!check())
                 tetromino = buffer;
         }
@@ -59,11 +66,16 @@ public:
         if (!check())
         {
             tetromino = buffer;
+            if (tetromino.getMaxY() >= board.getH()) // if out of the board
+            {
+                gameOver();
+                return;
+            }
             for (int i = 0; i < 4; i++)
             {
-                board.setPoint(tetromino.points[i], tetromino.getColor());
+                board.setPoint(tetromino.getPoint(i), tetromino.getColor());
             }
-            checkLines(tetromino.getMinY(), tetromino.getMaxY());
+            checkLines(tetromino.getMinY());
             rand();
         }
     }
@@ -82,42 +94,44 @@ public:
     void rand()
     {
         tetromino.setType((Tetromino::Type)(glm::linearRand(0, 1024) % 7));
-        tetromino.translate({board.getW() / 2, board.getH() - 2});
+        tetromino.pos = {board.getW() / 2, board.getH() - 2};
     }
 
     bool check()
     {
         for (int i = 0; i < 4; i++)
         {
-            if (tetromino.points[i].x < 0 || tetromino.points[i].x >= board.getW() ||
-                tetromino.points[i].y < 0)
+            if (tetromino.getPoint(i).x < 0 || tetromino.getPoint(i).x >= board.getW() ||
+                tetromino.getPoint(i).y < 0)
                 return false;
-            else if (not board.isEmpty(tetromino.points[i]))
+            else if (not board.isEmpty(tetromino.getPoint(i)))
                 return false;
         }
         return true;
     }
 
-    void checkLines(int minY, int maxY)
+    void checkLines(int minY)
     {
-        uint32_t last = board.getLastNotEmptyLine();
+        uint32_t h = board.getH();
 
-
-        for (int i = minY; i <= maxY; i ++)
+        int k = minY;
+        for (int i = minY; i < h; i++)
         {
-            if(board.isLineFull(i))
-                board.clearLine(i);
-        }
-
-        for (int i = minY; i <= maxY;)
-        {
-            if (board.isLineEmpty(i))
+            int count = 0;
+            for (int j = 0; j < board.getW(); j++)
             {
-                for (int j = i; j < board.getH() - 1; j++)
-                    board.swapLines(j, j + 1);
+                board.board[k][j] = board.board[i][j];
+                if (board.board[i][j] != Tile::Color::NONE)
+                    count++;
             }
-            else
-                i++;
+
+            if (count < board.getW())
+                k++;
         }
+    }
+
+    void gameOver()
+    {
+        spdlog::info("game over");
     }
 };

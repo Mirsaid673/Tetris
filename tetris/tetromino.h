@@ -11,6 +11,7 @@ private:
 
 public:
     glm::ivec2 points[4];
+    glm::ivec2 pos = glm::ivec2(0);
     enum Type : uint8_t
     {
         I,
@@ -43,7 +44,7 @@ public:
         for (int i = 0; i < 4; i++)
         {
             Transform2d tr;
-            tr.origin = points[i];
+            tr.origin = points[i] + pos;
 
             Renderer::setTransform2d(tr.getMatrix());
             Renderer::drawVAO(tile);
@@ -52,17 +53,15 @@ public:
 
     void translate(const glm::ivec2 &dir)
     {
-        for (int i = 0; i < 4; i++)
-            points[i] += dir;
+        pos += dir;
     }
 
     void rotate()
     {
-        glm::ivec2 p = points[2];
+        glm::mat2 r(0, 1, -1, 0);
         for (int i = 0; i < 4; i++)
         {
-            glm::ivec2 r = points[i] - p;
-            points[i] = p + glm::ivec2(r.y, -r.x);
+            points[i] = (points[i] - glm::ivec2(2, 1)) * r;
         }
     }
     Tile::Color getColor() const { return color; }
@@ -72,11 +71,16 @@ public:
 
     int getMinY()
     {
-        return glm::min(points[0].y, glm::min(points[1].y, glm::min(points[2].y, points[3].y)));
+        return glm::min(points[0].y, glm::min(points[1].y, glm::min(points[2].y, points[3].y))) + pos.y;
     }
     int getMaxY()
     {
-        return glm::max(points[0].y, glm::max(points[1].y, glm::max(points[2].y, points[3].y)));
+        return glm::max(points[0].y, glm::max(points[1].y, glm::max(points[2].y, points[3].y))) + pos.y;
+    }
+
+    glm::ivec2 getPoint(int i) const
+    {
+        return points[i] + pos;
     }
 };
 

@@ -10,9 +10,9 @@ private:
     const uint32_t width = 10;
     const uint32_t height = 20;
 
+public:
     std::vector<std::vector<Tile::Color>> board;
 
-public:
     Board() : board(height, std::vector<Tile::Color>(width, Tile::Color::NONE)) {}
 
     void draw()
@@ -50,37 +50,7 @@ public:
             return board[pos.y][pos.x] == Tile::Color::NONE;
         return true;
     }
-
-    bool isLineEmpty(uint32_t line)
-    {
-        for (int i = 0; i < width; i++)
-        {
-            if (board[line][i] != Tile::Color::NONE)
-                return false;
-        }
-        return true;
-    }
-
-    bool isLineFull(uint32_t line)
-    {
-        for (int i = 0; i < width; i++)
-        {
-            if (board[line][i] == Tile::Color::NONE)
-                return false;
-        }
-        return true;
-    }
-
-    uint32_t getLastNotEmptyLine()
-    {
-        for (int i = height - 1; i >= 0; i--)
-        {
-            if (!isLineEmpty(i))
-                return i;
-        }
-        return height;
-    }
-
+    
     void swapLines(int l1, int l2)
     {
         std::swap(board[l1], board[l2]);
