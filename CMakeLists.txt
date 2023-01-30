@@ -13,7 +13,6 @@ file(GLOB LIBS_INCLUDE_DIRECTORY "Engine/Vendor/*")
 find_package(spdlog REQUIRED)
 
 
-include_directories(${LIBS_INCLUDE_DIRECTORY} /usr/include/freetype2)
 #add_subdirectory(Engine/Vendor/box2d/src)
 add_executable(${EXECUTABLE} ${SOURCES})
 set_target_properties(${EXECUTABLE} PROPERTIES CXX_STANDARD ${CXX_STANDARD})

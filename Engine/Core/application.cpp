@@ -9,13 +9,12 @@ void Application::app_init()
 {
     Window::init();
 
-    window.create(420, 600, "tetris");
+    window.create(560, 800, "tetris");
     window.makeCurrent();
     input.init(window);
     Time::init();
 
     Renderer::init();
-    TextRenderer::init();
     window.debug();
 
     Renderer::setViewport(window.getSize());
@@ -33,7 +32,6 @@ void Application::app_init()
 void Application::app_determinate()
 {
     Program::destroyPrograms();
-    TextRenderer::determinate();
     window.destroy();
     Window::cleanup();
 }

@@ -2,6 +2,7 @@
 
 #include "board.h"
 #include "tetromino.h"
+#include "label.h"
 #include <glm/gtc/random.hpp>
 
 class Logic : public Node
@@ -22,7 +23,7 @@ public:
     void update() override
     {
         delay = default_dealy;
-        if (input.getKeyDown(GLFW_KEY_S))
+        if (input.getKeyDown(GLFW_KEY_S) || input.getKeyDown(GLFW_KEY_DOWN))
             delay = 0.05f;
 
         current_time += Time::delta_time;
@@ -33,11 +34,11 @@ public:
         }
 
         int dx = 0;
-        if (input.getKeyPress(GLFW_KEY_A))
+        if (input.getKeyPress(GLFW_KEY_A) || input.getKeyPress(GLFW_KEY_LEFT))
             dx = -1;
-        else if (input.getKeyPress(GLFW_KEY_D))
+        else if (input.getKeyPress(GLFW_KEY_D) || input.getKeyPress(GLFW_KEY_RIGHT))
             dx = 1;
-        else if (input.getKeyPress(GLFW_KEY_W))
+        else if (input.getKeyPress(GLFW_KEY_W) || input.getKeyPress(GLFW_KEY_UP))
         {
             buffer = tetromino;
             tetromino.rotate();
@@ -92,14 +93,33 @@ public:
         spawn();
 
         next.pos = {board.getW() + 1, 1};
+
+        score_counter.scale = glm::vec2(1.0f / BitmapFont::getAspect(), 1) * glm::vec2(0.7f);
+        score_counter.text = "0";
+        score_counter.pos.y = 8;
+        rightLabel();
+
+        score_label.scale = glm::vec2(1.0f / BitmapFont::getAspect(), 1) * glm::vec2(1);
+        score_label.pos = {board.getW(), 8.5f};
+        score_label.text = "SCORE:";
     }
 
+    float sscore_counterX = 14;
+    void rightLabel()
+    {
+        score_counter.pos.x = sscore_counterX - score_counter.getTextWidth();
+    }
+
+    Label score_label;
+    Label score_counter;
     void draw() override
     {
         board.draw();
         tetromino.draw();
-
         next.draw();
+
+        score_label.draw();
+        score_counter.draw();
     }
 
     int current_rand;
@@ -117,7 +137,7 @@ public:
 
     int getRandomNum()
     {
-        return glm::linearRand(0, 1024) % 7;
+        return glm::linearRand(0, 6);
     }
 
     bool check()
@@ -176,12 +196,20 @@ public:
                 score += 1500;
                 break;
             }
-            spdlog::info("score: {}", score);
+            onLineErase();
         }
     }
 
+    void onLineErase()
+    {
+        score_counter.text = std::to_string(score);
+        rightLabel();
+    }
+
+    bool game_over = false;
     void gameOver()
     {
-        spdlog::info("game over");
+        spdlog::info("game over, your score: {}", score);
+        game_over = true;
     }
 };

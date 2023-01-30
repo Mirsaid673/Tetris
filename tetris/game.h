@@ -11,16 +11,13 @@ class Game : public Application
 
     void init() override
     {
+        std::srand((unsigned)time(nullptr));
         camera2d.ortho(0, scale, scale * (float)window.getHeight() / (float)window.getWidth(), 0);
         Renderer::setClearColor(glm::vec3(0.25, 0.2f, 0.3f));
         Tile::init();
+        BitmapFont::init("../tetris/rsc/font.png", 16, 8);
 
         scene.addNode(logic);
-    }
-
-    Material m;
-    void draw() override
-    {
     }
 
     float scale = 14.0f;
@@ -31,7 +28,13 @@ class Game : public Application
 
     void update() override
     {
-        if (input.getKeyDown(GLFW_KEY_ESCAPE))
+        if (input.getKeyDown(GLFW_KEY_ESCAPE) || logic.game_over)
             running = false;
+        window.setTitle((std::string(window.getTitle()) + "   " + std::to_string(1.0f / Time::delta_time)).c_str());
+    }
+
+    void determinate() override
+    {
+        BitmapFont::destroy();
     }
 };

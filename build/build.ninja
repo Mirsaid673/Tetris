@@ -53,7 +53,7 @@ build CMakeFiles/out.dir/Engine/Core/Camera/camera.cpp.o: CXX_COMPILER__out_Debu
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/Camera/camera.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core/Camera
 
@@ -61,7 +61,7 @@ build CMakeFiles/out.dir/Engine/Core/Camera/camera2d.cpp.o: CXX_COMPILER__out_De
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/Camera/camera2d.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core/Camera
 
@@ -69,7 +69,7 @@ build CMakeFiles/out.dir/Engine/Core/Resources/image.cpp.o: CXX_COMPILER__out_De
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/Resources/image.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core/Resources
 
@@ -77,7 +77,7 @@ build CMakeFiles/out.dir/Engine/Core/Resources/resource_manager.cpp.o: CXX_COMPI
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/Resources/resource_manager.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core/Resources
 
@@ -85,7 +85,7 @@ build CMakeFiles/out.dir/Engine/Core/UI/canvas.cpp.o: CXX_COMPILER__out_Debug /h
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/UI/canvas.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core/UI
 
@@ -93,7 +93,7 @@ build CMakeFiles/out.dir/Engine/Core/application.cpp.o: CXX_COMPILER__out_Debug 
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/application.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -101,7 +101,7 @@ build CMakeFiles/out.dir/Engine/Core/global.cpp.o: CXX_COMPILER__out_Debug /home
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/global.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -109,7 +109,7 @@ build CMakeFiles/out.dir/Engine/Core/input.cpp.o: CXX_COMPILER__out_Debug /home/
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/input.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -117,7 +117,7 @@ build CMakeFiles/out.dir/Engine/Core/node.cpp.o: CXX_COMPILER__out_Debug /home/n
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/node.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -125,7 +125,7 @@ build CMakeFiles/out.dir/Engine/Core/scene.cpp.o: CXX_COMPILER__out_Debug /home/
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/scene.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -133,7 +133,7 @@ build CMakeFiles/out.dir/Engine/Core/time_utils.cpp.o: CXX_COMPILER__out_Debug /
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Core/time_utils.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Core
 
@@ -141,7 +141,7 @@ build CMakeFiles/out.dir/Engine/Math/basis.cpp.o: CXX_COMPILER__out_Debug /home/
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Math/basis.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Math
 
@@ -149,7 +149,7 @@ build CMakeFiles/out.dir/Engine/Math/basis2d.cpp.o: CXX_COMPILER__out_Debug /hom
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Math/basis2d.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Math
 
@@ -157,7 +157,7 @@ build CMakeFiles/out.dir/Engine/Math/transform.cpp.o: CXX_COMPILER__out_Debug /h
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Math/transform.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Math
 
@@ -165,7 +165,7 @@ build CMakeFiles/out.dir/Engine/Math/transform2d.cpp.o: CXX_COMPILER__out_Debug 
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Math/transform2d.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Math
 
@@ -173,7 +173,7 @@ build CMakeFiles/out.dir/Engine/Platform/window.cpp.o: CXX_COMPILER__out_Debug /
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Platform/window.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Platform
 
@@ -181,7 +181,7 @@ build CMakeFiles/out.dir/Engine/Vendor/glTF/gltf.cpp.o: CXX_COMPILER__out_Debug 
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/glTF/gltf.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/glTF
 
@@ -189,7 +189,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui.cpp.o: CXX_COMPILER__out_Debu
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -197,7 +197,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_demo.cpp.o: CXX_COMPILER__out
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_demo.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -205,7 +205,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_draw.cpp.o: CXX_COMPILER__out
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -213,7 +213,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_glfw.cpp.o: CXX_COMPILER
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_glfw.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -221,7 +221,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_opengl3.cpp.o: CXX_COMPI
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_opengl3.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -229,7 +229,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_tables.cpp.o: CXX_COMPILER__o
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_tables.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -237,7 +237,7 @@ build CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_widgets.cpp.o: CXX_COMPILER__
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_widgets.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/imgui
 
@@ -245,7 +245,7 @@ build CMakeFiles/out.dir/Engine/Vendor/simdjson/simdjson.cpp.o: CXX_COMPILER__ou
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/simdjson/simdjson.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/simdjson
 
@@ -253,7 +253,7 @@ build CMakeFiles/out.dir/Engine/Vendor/stb/stb_image.cpp.o: CXX_COMPILER__out_De
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/Vendor/stb/stb_image.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/Vendor/stb
 
@@ -261,7 +261,7 @@ build CMakeFiles/out.dir/Engine/openGL/Buffers/index_buffer.cpp.o: CXX_COMPILER_
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Buffers/index_buffer.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Buffers
 
@@ -269,7 +269,7 @@ build CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_array.cpp.o: CXX_COMPILER_
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_array.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Buffers
 
@@ -277,7 +277,7 @@ build CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_attribs.cpp.o: CXX_COMPILE
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_attribs.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Buffers
 
@@ -285,7 +285,7 @@ build CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_buffer.cpp.o: CXX_COMPILER
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_buffer.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Buffers
 
@@ -293,7 +293,7 @@ build CMakeFiles/out.dir/Engine/openGL/Framebuffer/framebuffer.cpp.o: CXX_COMPIL
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Framebuffer/framebuffer.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Framebuffer
 
@@ -301,7 +301,7 @@ build CMakeFiles/out.dir/Engine/openGL/Program/program.cpp.o: CXX_COMPILER__out_
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Program/program.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Program
 
@@ -309,7 +309,7 @@ build CMakeFiles/out.dir/Engine/openGL/Program/shader.cpp.o: CXX_COMPILER__out_D
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Program/shader.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Program
 
@@ -317,15 +317,7 @@ build CMakeFiles/out.dir/Engine/openGL/Renderer/renderer.cpp.o: CXX_COMPILER__ou
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Renderer/renderer.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
-  OBJECT_DIR = CMakeFiles/out.dir
-  OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Renderer
-
-build CMakeFiles/out.dir/Engine/openGL/Renderer/text_renderer.cpp.o: CXX_COMPILER__out_Debug /home/neron/Projects/tetris/Engine/openGL/Renderer/text_renderer.cpp || cmake_object_order_depends_target_out
-  DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Renderer/text_renderer.cpp.o.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Renderer
 
@@ -333,7 +325,7 @@ build CMakeFiles/out.dir/Engine/openGL/Texture/cubemap.cpp.o: CXX_COMPILER__out_
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Texture/cubemap.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Texture
 
@@ -341,7 +333,7 @@ build CMakeFiles/out.dir/Engine/openGL/Texture/texture.cpp.o: CXX_COMPILER__out_
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/Texture/texture.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL/Texture
 
@@ -349,7 +341,7 @@ build CMakeFiles/out.dir/Engine/openGL/gpu.cpp.o: CXX_COMPILER__out_Debug /home/
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/Engine/openGL/gpu.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir/Engine/openGL
 
@@ -357,7 +349,7 @@ build CMakeFiles/out.dir/main.cpp.o: CXX_COMPILER__out_Debug /home/neron/Project
   DEFINES = -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
   DEP_FILE = CMakeFiles/out.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/usr/include/freetype2 -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/openGL
+  INCLUDES = -I/home/neron/Projects/tetris/Engine -I/home/neron/Projects/tetris/Engine/Core -I/home/neron/Projects/tetris/Engine/Math -I/home/neron/Projects/tetris/Engine/Platform -I/home/neron/Projects/tetris/Engine/Vendor -I/home/neron/Projects/tetris/Engine/Vendor/box2d -I/home/neron/Projects/tetris/Engine/Vendor/glTF -I/home/neron/Projects/tetris/Engine/Vendor/imgui -I/home/neron/Projects/tetris/Engine/Vendor/simdjson -I/home/neron/Projects/tetris/Engine/Vendor/stb -I/home/neron/Projects/tetris/Engine/openGL
   OBJECT_DIR = CMakeFiles/out.dir
   OBJECT_FILE_DIR = CMakeFiles/out.dir
 
@@ -369,7 +361,7 @@ build CMakeFiles/out.dir/main.cpp.o: CXX_COMPILER__out_Debug /home/neron/Project
 #############################################
 # Link the executable out
 
-build out: CXX_EXECUTABLE_LINKER__out_Debug CMakeFiles/out.dir/Engine/Core/Camera/camera.cpp.o CMakeFiles/out.dir/Engine/Core/Camera/camera2d.cpp.o CMakeFiles/out.dir/Engine/Core/Resources/image.cpp.o CMakeFiles/out.dir/Engine/Core/Resources/resource_manager.cpp.o CMakeFiles/out.dir/Engine/Core/UI/canvas.cpp.o CMakeFiles/out.dir/Engine/Core/application.cpp.o CMakeFiles/out.dir/Engine/Core/global.cpp.o CMakeFiles/out.dir/Engine/Core/input.cpp.o CMakeFiles/out.dir/Engine/Core/node.cpp.o CMakeFiles/out.dir/Engine/Core/scene.cpp.o CMakeFiles/out.dir/Engine/Core/time_utils.cpp.o CMakeFiles/out.dir/Engine/Math/basis.cpp.o CMakeFiles/out.dir/Engine/Math/basis2d.cpp.o CMakeFiles/out.dir/Engine/Math/transform.cpp.o CMakeFiles/out.dir/Engine/Math/transform2d.cpp.o CMakeFiles/out.dir/Engine/Platform/window.cpp.o CMakeFiles/out.dir/Engine/Vendor/glTF/gltf.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_demo.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_draw.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_glfw.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_tables.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_widgets.cpp.o CMakeFiles/out.dir/Engine/Vendor/simdjson/simdjson.cpp.o CMakeFiles/out.dir/Engine/Vendor/stb/stb_image.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/index_buffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_array.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_attribs.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_buffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Framebuffer/framebuffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Program/program.cpp.o CMakeFiles/out.dir/Engine/openGL/Program/shader.cpp.o CMakeFiles/out.dir/Engine/openGL/Renderer/renderer.cpp.o CMakeFiles/out.dir/Engine/openGL/Renderer/text_renderer.cpp.o CMakeFiles/out.dir/Engine/openGL/Texture/cubemap.cpp.o CMakeFiles/out.dir/Engine/openGL/Texture/texture.cpp.o CMakeFiles/out.dir/Engine/openGL/gpu.cpp.o CMakeFiles/out.dir/main.cpp.o | /usr/lib/libspdlog.so.1.11.0 /usr/lib/libfmt.so.9.1.0
+build out: CXX_EXECUTABLE_LINKER__out_Debug CMakeFiles/out.dir/Engine/Core/Camera/camera.cpp.o CMakeFiles/out.dir/Engine/Core/Camera/camera2d.cpp.o CMakeFiles/out.dir/Engine/Core/Resources/image.cpp.o CMakeFiles/out.dir/Engine/Core/Resources/resource_manager.cpp.o CMakeFiles/out.dir/Engine/Core/UI/canvas.cpp.o CMakeFiles/out.dir/Engine/Core/application.cpp.o CMakeFiles/out.dir/Engine/Core/global.cpp.o CMakeFiles/out.dir/Engine/Core/input.cpp.o CMakeFiles/out.dir/Engine/Core/node.cpp.o CMakeFiles/out.dir/Engine/Core/scene.cpp.o CMakeFiles/out.dir/Engine/Core/time_utils.cpp.o CMakeFiles/out.dir/Engine/Math/basis.cpp.o CMakeFiles/out.dir/Engine/Math/basis2d.cpp.o CMakeFiles/out.dir/Engine/Math/transform.cpp.o CMakeFiles/out.dir/Engine/Math/transform2d.cpp.o CMakeFiles/out.dir/Engine/Platform/window.cpp.o CMakeFiles/out.dir/Engine/Vendor/glTF/gltf.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_demo.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_draw.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_glfw.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_tables.cpp.o CMakeFiles/out.dir/Engine/Vendor/imgui/imgui_widgets.cpp.o CMakeFiles/out.dir/Engine/Vendor/simdjson/simdjson.cpp.o CMakeFiles/out.dir/Engine/Vendor/stb/stb_image.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/index_buffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_array.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_attribs.cpp.o CMakeFiles/out.dir/Engine/openGL/Buffers/vertex_buffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Framebuffer/framebuffer.cpp.o CMakeFiles/out.dir/Engine/openGL/Program/program.cpp.o CMakeFiles/out.dir/Engine/openGL/Program/shader.cpp.o CMakeFiles/out.dir/Engine/openGL/Renderer/renderer.cpp.o CMakeFiles/out.dir/Engine/openGL/Texture/cubemap.cpp.o CMakeFiles/out.dir/Engine/openGL/Texture/texture.cpp.o CMakeFiles/out.dir/Engine/openGL/gpu.cpp.o CMakeFiles/out.dir/main.cpp.o | /usr/lib/libspdlog.so.1.11.0 /usr/lib/libfmt.so.9.1.0
   FLAGS = -g
   LINK_LIBRARIES = -lGL  -lGLEW  -lglfw  -lfreetype  /usr/lib/libspdlog.so.1.11.0  /usr/lib/libfmt.so.9.1.0
   OBJECT_DIR = CMakeFiles/out.dir

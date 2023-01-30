@@ -47,6 +47,12 @@ public:
         max_size = maximum_size;
         glfwSetWindowSizeLimits(m_window, min_size.x, min_size.y, max_size.x, max_size.y);
     }
+
+    void setTitle(const char* title)
+    {
+        glfwSetWindowTitle(m_window, title);
+    }
+
     const glm::ivec2 &getSize() const { return size; }
     int getWidth() const { return size.x; }
     int getHeight() const { return size.y; }

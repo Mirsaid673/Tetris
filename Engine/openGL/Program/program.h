@@ -60,5 +60,4 @@ public:
     static Program colored2d;
     static Program skybox;
     static Program framebuffer;
-    static Program text;
 };
